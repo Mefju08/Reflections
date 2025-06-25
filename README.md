@@ -65,3 +65,14 @@ Napisz klasę, która:
 3. Utworzy nowy obiekt przy pomocy `ConstructorInfo.Invoke`.
 
 ---
+
+# 🧩 Zadanie 6 – Wywoływanie metody z argumentami przez refleksję
+
+## 📋 Opis
+
+Zaimplementuj klasę, która:
+
+- Przyjmuje dowolny obiekt (`object`),
+- Przyjmuje nazwę metody (`string`),
+- Przyjmuje listę argumentów (`object[]`),
+- Wyszukuje metodę o danej nazwie i wywołuje ją, przekazując argumenty.

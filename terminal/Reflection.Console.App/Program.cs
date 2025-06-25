@@ -9,12 +9,12 @@ namespace Reflections.Terminal.App
         {
             var user = new User("Philip", 42);
 
-
             //new Task1_TypeInspection().Run(user);
             //var obj = new Task2_PropertyManipulation().Run(user);
             //new Task3_InvokeMethod().Run(user);
             //new Task4_PrivateFieldManipulation().Run(user);
-            new Task5_ConstructorActivator().Run(user, new object[] { "Edd", 18 });
+            //new Task5_ConstructorActivator().Run(user, new object[] { "Edd", 18 });
+            var obj = new Task6_InvokeMethodWithArgs().Run(user, "SetAge", new object[] { 99 });
         }
     }
 }
