@@ -1,12 +1,4 @@
-﻿using Reflections.Terminal.App.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Reflections.Terminal.App.Tasks
+﻿namespace Reflections.Terminal.App.Tasks
 {
     internal sealed class Task2_PropertyManipulation
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Reflection;
 
 namespace Reflections.Terminal.App.Tasks
 {
@@ -61,7 +55,7 @@ namespace Reflections.Terminal.App.Tasks
             Console.WriteLine("Fields:");
             var fields = objType.GetFields(
                 BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-                             
+
             foreach (var field in fields)
             {
                 Console.WriteLine($"-{field.Name}");
