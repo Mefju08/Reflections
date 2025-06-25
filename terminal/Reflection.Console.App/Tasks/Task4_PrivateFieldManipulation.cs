@@ -2,7 +2,7 @@
 
 namespace Reflections.Terminal.App.Tasks
 {
-    internal sealed class Task4_CreateInstance
+    internal sealed class Task4_PrivateFieldManipulation
     {
         private const string _fieldToUpdateName = "_pesel";
         private object _newValue = "432432";

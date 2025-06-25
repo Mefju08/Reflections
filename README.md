@@ -53,3 +53,13 @@ Stwórz klasę, która:
 5. Pomija pola generowane automatycznie przez kompilator (`k__BackingField`).
 
 ---
+
+# 🧩 Zadanie 5 – Tworzenie obiektu przez konstruktor z parametrami
+
+## 🎯 Cel zadania
+
+- Odszukać w klasie odpowiedni konstruktor,
+- Sprawdzić, czy przekazane argumenty pasują typami do parametrów konstruktora,
+- Utworzyć nowy obiekt przy pomocy `ConstructorInfo.Invoke`.
+
+---

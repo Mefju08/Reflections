@@ -7,17 +7,14 @@ namespace Reflections.Terminal.App
     {
         static void Main(string[] args)
         {
-            var user = new User()
-            {
-                Name = "Philip",
-                Age = 42
-            };
+            var user = new User("Philip", 42);
+
 
             //new Task1_TypeInspection().Run(user);
             //var obj = new Task2_PropertyManipulation().Run(user);
             //new Task3_InvokeMethod().Run(user);
-            new Task4_CreateInstance().Run(user);
-
+            //new Task4_PrivateFieldManipulation().Run(user);
+            new Task5_ConstructorActivator().Run(user, new object[] { "Edd", 18 });
         }
     }
 }
