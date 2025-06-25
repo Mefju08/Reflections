@@ -1,7 +1,5 @@
 # 🧩 Zadanie 1 – Analiza typu (Type Inspection)
 
----
-
 ## 🎯 Cel zadania
 
 Napisz program, który:
@@ -17,8 +15,6 @@ Napisz program, który:
 
 # 🧩 Zadanie 2 – Dynamiczne tworzenie i modyfikacja obiektu
 
----
-
 ## 🎯 Cel zadania
 
 Napisz klasę, która:
@@ -31,8 +27,6 @@ Napisz klasę, która:
 ---
 
 # 🧩 Zadanie 3 – Dynamiczne wywoływanie metody
-
----
 
 ## 🎯 Cel zadania
 
