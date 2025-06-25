@@ -15,7 +15,8 @@ namespace Reflections.Terminal.App
 
             //new Task1_TypeInspection().Run(user);
             //var obj = new Task2_PropertyManipulation().Run(user);
-            new Task3_InvokeMethod().Run(user);
+            //new Task3_InvokeMethod().Run(user);
+            new Task4_CreateInstance().Run(user);
 
         }
     }

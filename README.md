@@ -39,3 +39,17 @@ Napisz klasę/metodę, która:
 5. (Opcjonalnie) Obsłuży sytuację, gdy metoda o podanej nazwie nie istnieje.
 
 ---
+
+# 🧩 Zadanie 4 – Odczyt i modyfikacja pól prywatnych
+
+## 🎯 Cel zadania
+
+Stwórz klasę, która:
+
+1. Przyjmuje jako argument instancję obiektu dowolnego typu,
+2. Wyszukuje wszystkie prywatne pola zdefiniowane **bezpośrednio** w klasie,
+3. Znajduje pole o określonej nazwie (np. `_pesel`),
+4. Aktualizuje jego wartość na nową,
+5. Pomija pola generowane automatycznie przez kompilator (`k__BackingField`).
+
+---
