@@ -58,8 +58,10 @@ Stwórz klasę, która:
 
 ## 🎯 Cel zadania
 
-- Odszukać w klasie odpowiedni konstruktor,
-- Sprawdzić, czy przekazane argumenty pasują typami do parametrów konstruktora,
-- Utworzyć nowy obiekt przy pomocy `ConstructorInfo.Invoke`.
+Napisz klasę, która:
+
+1. Odszuka w klasie odpowiedni konstruktor,
+2. Sprawdzi, czy przekazane argumenty pasują typami do parametrów konstruktora,
+3. Utworzy nowy obiekt przy pomocy `ConstructorInfo.Invoke`.
 
 ---
