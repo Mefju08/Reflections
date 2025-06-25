@@ -9,7 +9,8 @@ namespace Reflections.Terminal.App
         {
             var user = new User();
 
-            new Task1_TypeInspection().Run(user);
+            //new Task1_TypeInspection().Run(user);
+            var obj = new Task2_PropertyManipulation().Run(user);
 
         }
     }
