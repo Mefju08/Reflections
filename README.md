@@ -99,3 +99,13 @@ Zaimplementuj klasę, która:
 1. odczytuje atrybuty przypisane do pól i właściwości obiektu,
 2. wypisuje nazwę członu (pole/właściwość) oraz typ atrybutu,
 3. ignoruje pola kompilatora (`k__BackingField`).
+
+---
+# 🧩 Zadanie 9 – Wyszukiwanie klas implementujących interfejs i uruchamianie metody
+
+## 📋 Opis
+
+Zaimplementuj klasę, która:
+
+1. znajdie wszystki typy implementujące interfejs `IRunnable`,
+2. wywoła metodę `Run()`.

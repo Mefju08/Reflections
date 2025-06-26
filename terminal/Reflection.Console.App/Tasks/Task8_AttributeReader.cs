@@ -42,6 +42,4 @@ namespace Reflections.Terminal.App.Tasks
                 .ForEach(x => Console.WriteLine(x));
         }
     }
-
-
 }

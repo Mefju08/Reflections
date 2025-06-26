@@ -17,7 +17,8 @@ namespace Reflections.Terminal.App
             //var obj = new Task6_InvokeMethodWithArgs().Run(user, "SetAge", new object[] { 99 });
             //var obj = new Task7_MemberAccessor().GetValue(user, "Age");
             //new Task7_MemberAccessor().SetValue(user, "Age", 12);
-            new Task8_AttributeReader().Run(user);
+            //new Task8_AttributeReader().Run(user);
+            new Task9_InterfaceExecutor().Run();
 
         }
     }
