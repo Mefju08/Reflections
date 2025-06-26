@@ -107,5 +107,5 @@ Zaimplementuj klasę, która:
 
 Zaimplementuj klasę, która:
 
-1. znajdie wszystki typy implementujące interfejs `IRunnable`,
+1. znajdzie wszystki typy implementujące interfejs `IRunnable`,
 2. wywoła metodę `Run()`.
