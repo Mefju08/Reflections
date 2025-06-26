@@ -14,7 +14,10 @@ namespace Reflections.Terminal.App
             //new Task3_InvokeMethod().Run(user);
             //new Task4_PrivateFieldManipulation().Run(user);
             //new Task5_ConstructorActivator().Run(user, new object[] { "Edd", 18 });
-            var obj = new Task6_InvokeMethodWithArgs().Run(user, "SetAge", new object[] { 99 });
+            //var obj = new Task6_InvokeMethodWithArgs().Run(user, "SetAge", new object[] { 99 });
+            var obj = new Task7_MemberAccessor().GetValue(user, "Age");
+            new Task7_MemberAccessor().SetValue(user, "Age", 12);
+
         }
     }
 }

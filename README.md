@@ -76,3 +76,14 @@ Zaimplementuj klasę, która:
 - Przyjmuje nazwę metody (`string`),
 - Przyjmuje listę argumentów (`object[]`),
 - Wyszukuje metodę o danej nazwie i wywołuje ją, przekazując argumenty.
+
+---
+
+# 🧩 Zadanie 7 – Dynamiczny getter i setter (pola i właściwości)
+
+## 📋 Opis
+
+Zaimplementuj klasę, która udostępnia dwie metody:
+
+- `object GetValue(object obj, string memberName)` – odczytuje wartość pola lub właściwości,
+- `void SetValue(object obj, string memberName, object value)` – ustawia wartość pola lub właściwości.
