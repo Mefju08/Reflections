@@ -72,10 +72,10 @@ Napisz klasę, która:
 
 Zaimplementuj klasę, która:
 
-- Przyjmuje dowolny obiekt (`object`),
-- Przyjmuje nazwę metody (`string`),
-- Przyjmuje listę argumentów (`object[]`),
-- Wyszukuje metodę o danej nazwie i wywołuje ją, przekazując argumenty.
+1. Przyjmuje dowolny obiekt (`object`),
+2. Przyjmuje nazwę metody (`string`),
+3. Przyjmuje listę argumentów (`object[]`),
+4. Wyszukuje metodę o danej nazwie i wywołuje ją, przekazując argumenty.
 
 ---
 
@@ -87,3 +87,15 @@ Zaimplementuj klasę, która udostępnia dwie metody:
 
 - `object GetValue(object obj, string memberName)` – odczytuje wartość pola lub właściwości,
 - `void SetValue(object obj, string memberName, object value)` – ustawia wartość pola lub właściwości.
+
+# 🧩 Zadanie 8 – Odczytywanie atrybutów z pól i właściwości
+
+---
+
+## 📋 Opis
+
+Zaimplementuj klasę, która:
+
+1. odczytuje atrybuty przypisane do pól i właściwości obiektu,
+2. wypisuje nazwę członu (pole/właściwość) oraz typ atrybutu,
+3. ignoruje pola kompilatora (`k__BackingField`).
